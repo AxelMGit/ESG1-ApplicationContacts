@@ -1,5 +1,5 @@
 <?php
-include 'functions.php';
+include 'functions.php'; //Inclusion du fichier contacts.php et des functions pour intéragir avec celui-ci
 $contacts = getContacts();
 ?>
 <!DOCTYPE html>

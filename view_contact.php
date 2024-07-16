@@ -1,5 +1,5 @@
 <?php
-include 'contacts.php';
+include 'contacts.php'; //Inclusion du fichier contacts.php
 
 if (isset($_GET['id']) && array_key_exists($_GET['id'], $contacts)) {
     $id = intval($_GET['id']);
