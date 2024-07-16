@@ -13,13 +13,13 @@ $contacts = getContacts();
     <header>
         <h1>Liste des contacts</h1>
     </header>
-    <main>
+    <bg>
         <table>
             <tr>
                 <th>Nom</th>
                 <th>Email</th>
                 <th>Téléphone</th>
-                <th>Détail</th>
+                <th>Détails</th>
             </tr>
             <?php
             foreach ($contacts as $id => $contact) {
@@ -27,12 +27,12 @@ $contacts = getContacts();
                 echo "<td>" . htmlspecialchars($contact['nom']) . "</td>";
                 echo "<td>" . htmlspecialchars($contact['email']) . "</td>";
                 echo "<td>" . htmlspecialchars($contact['telephone']) . "</td>";
-                echo "<td><a href='view_contact.php?id=" . $id . "'>Voir Détail</a></td>";
+                echo "<td><a href='view_contact.php?id=" . $id . "'>+</a></td>";
                 echo "</tr>";
             }
             ?>
         </table>
-    </main>
+    </bg>
     <div class="button-group">
         <a href="index.html">Accueil</a>
         <a href="add_contact.php">Ajouter un contact</a>

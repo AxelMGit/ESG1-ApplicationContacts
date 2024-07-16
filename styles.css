@@ -7,11 +7,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 70vh;
+    height: 80vh;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #338DFF;
     color: white;
     padding: 1em;
     width: 100%;
@@ -44,14 +44,14 @@ a:hover {
     background-color: #555;
 }
 
-main {
+bg {
     background-color: white;
     padding: 2em;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     margin-top: 2em;
-    width: 80%;
-    max-width: 600px;
+    width: 100%;
+    max-width: 95%;
 }
 
 
@@ -76,7 +76,7 @@ input[type="tel"] {
 }
 
 input[type="submit"] {
-    background-color: #4CAF50;
+    background-color: #338DFF;
     color: white;
     border: none;
     padding: 0.5em;
@@ -86,7 +86,7 @@ input[type="submit"] {
 }
 
 input[type="submit"]:hover {
-    background-color: #45a049;
+    background-color: #338DFF;
 }
 
 
@@ -103,7 +103,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #338DFF;
     color: white;
 }
 

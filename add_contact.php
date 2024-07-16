@@ -70,7 +70,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <h1>Ajouter un contact</h1><br>
         <a href="list_contacts.php">Retour à la liste des contacts</a>
     </header>
-    <main>
+    <bg>
         <?php
         if (!empty($nomErr) || !empty($emailErr) || !empty($telephoneErr)) {
             echo "<div class='error'>";
@@ -107,7 +107,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
         ?>
 
-    </main>
+    </bg>
     <script src="index.js"></script>
 </body>
 </html>
